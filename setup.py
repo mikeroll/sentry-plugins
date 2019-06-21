@@ -33,7 +33,7 @@ tests_require = [
 install_requires = [
     'BeautifulSoup>=3.2.1',
     # sentry also requires this, so we're just enforcing that it needs to exist
-    'boto3>=1.4.4,<1.5.0',
+    'boto3>=1.4.4,<1.10.0',
     'cached-property',
     'mistune',
     'phabricator>=0.6.0,<1.0',
